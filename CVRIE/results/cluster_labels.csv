@@ -1,0 +1,1012 @@
+doc_id,cluster,cluster_name
+1,18,wrist / thumb / hand
+2,0,breathe / wheeze / cough
+3,4,blister / hot / small blister
+4,13,leg / hip / ache
+5,4,blister / hot / small blister
+6,2,shoulder / reach / side
+7,4,blister / hot / small blister
+8,3,itchy / rash / new
+9,9,blood / blood pressure / doctor
+10,3,itchy / rash / new
+11,6,head / eye / light
+12,2,shoulder / reach / side
+13,7,off / push off / foot
+14,10,night / lose / wake
+15,17,skin / red / patch
+16,10,night / lose / wake
+17,2,shoulder / reach / side
+18,6,head / eye / light
+19,18,wrist / thumb / hand
+20,11,nose / throat / mild
+21,1,ear / hear / fever
+22,4,blister / hot / small blister
+23,0,breathe / wheeze / cough
+24,3,itchy / rash / new
+25,1,ear / hear / fever
+26,1,ear / hear / fever
+27,5,pale / dizzy / headache
+28,15,short / breath / walk
+29,14,deep / deep breath / shoulder
+30,16,chest / tightness / pressure
+31,11,nose / throat / mild
+32,0,breathe / wheeze / cough
+33,18,wrist / thumb / hand
+34,15,short / breath / walk
+35,18,wrist / thumb / hand
+36,0,breathe / wheeze / cough
+37,11,nose / throat / mild
+38,10,night / lose / wake
+39,11,nose / throat / mild
+40,15,short / breath / walk
+41,4,blister / hot / small blister
+42,11,nose / throat / mild
+43,12,arm / elbow / ache
+44,0,breathe / wheeze / cough
+45,17,skin / red / patch
+46,12,arm / elbow / ache
+47,6,head / eye / light
+48,15,short / breath / walk
+49,3,itchy / rash / new
+50,9,blood / blood pressure / doctor
+51,5,pale / dizzy / headache
+52,0,breathe / wheeze / cough
+53,18,wrist / thumb / hand
+54,11,nose / throat / mild
+55,7,off / push off / foot
+56,13,leg / hip / ache
+57,4,blister / hot / small blister
+58,7,off / push off / foot
+59,3,itchy / rash / new
+60,18,wrist / thumb / hand
+61,17,skin / red / patch
+62,5,pale / dizzy / headache
+63,14,deep / deep breath / shoulder
+64,10,night / lose / wake
+65,15,short / breath / walk
+66,18,wrist / thumb / hand
+67,3,itchy / rash / new
+68,17,skin / red / patch
+69,16,chest / tightness / pressure
+70,17,skin / red / patch
+71,1,ear / hear / fever
+72,2,shoulder / reach / side
+73,17,skin / red / patch
+74,5,pale / dizzy / headache
+75,4,blister / hot / small blister
+76,10,night / lose / wake
+77,9,blood / blood pressure / doctor
+78,18,wrist / thumb / hand
+79,6,head / eye / light
+80,1,ear / hear / fever
+81,11,nose / throat / mild
+82,11,nose / throat / mild
+83,1,ear / hear / fever
+84,11,nose / throat / mild
+85,17,skin / red / patch
+86,14,deep / deep breath / shoulder
+87,3,itchy / rash / new
+88,9,blood / blood pressure / doctor
+89,2,shoulder / reach / side
+90,11,nose / throat / mild
+91,10,night / lose / wake
+92,5,pale / dizzy / headache
+93,7,off / push off / foot
+94,6,head / eye / light
+95,17,skin / red / patch
+96,18,wrist / thumb / hand
+97,5,pale / dizzy / headache
+98,3,itchy / rash / new
+99,3,itchy / rash / new
+100,15,short / breath / walk
+101,12,arm / elbow / ache
+102,13,leg / hip / ache
+103,0,breathe / wheeze / cough
+104,10,night / lose / wake
+105,0,breathe / wheeze / cough
+106,15,short / breath / walk
+107,13,leg / hip / ache
+108,14,deep / deep breath / shoulder
+109,9,blood / blood pressure / doctor
+110,1,ear / hear / fever
+111,4,blister / hot / small blister
+112,8,knee / ache / after
+113,17,skin / red / patch
+114,3,itchy / rash / new
+115,1,ear / hear / fever
+116,3,itchy / rash / new
+117,11,nose / throat / mild
+118,13,leg / hip / ache
+119,9,blood / blood pressure / doctor
+120,5,pale / dizzy / headache
+121,16,chest / tightness / pressure
+122,11,nose / throat / mild
+123,16,chest / tightness / pressure
+124,15,short / breath / walk
+125,3,itchy / rash / new
+126,10,night / lose / wake
+127,15,short / breath / walk
+128,10,night / lose / wake
+129,11,nose / throat / mild
+130,5,pale / dizzy / headache
+131,6,head / eye / light
+132,10,night / lose / wake
+133,6,head / eye / light
+134,17,skin / red / patch
+135,6,head / eye / light
+136,10,night / lose / wake
+137,9,blood / blood pressure / doctor
+138,14,deep / deep breath / shoulder
+139,17,skin / red / patch
+140,11,nose / throat / mild
+141,1,ear / hear / fever
+142,11,nose / throat / mild
+143,16,chest / tightness / pressure
+144,6,head / eye / light
+145,2,shoulder / reach / side
+146,0,breathe / wheeze / cough
+147,6,head / eye / light
+148,7,off / push off / foot
+149,4,blister / hot / small blister
+150,10,night / lose / wake
+151,12,arm / elbow / ache
+152,4,blister / hot / small blister
+153,10,night / lose / wake
+154,10,night / lose / wake
+155,1,ear / hear / fever
+156,11,nose / throat / mild
+157,11,nose / throat / mild
+158,5,pale / dizzy / headache
+159,11,nose / throat / mild
+160,11,nose / throat / mild
+161,10,night / lose / wake
+162,6,head / eye / light
+163,2,shoulder / reach / side
+164,5,pale / dizzy / headache
+165,5,pale / dizzy / headache
+166,0,breathe / wheeze / cough
+167,3,itchy / rash / new
+168,16,chest / tightness / pressure
+169,2,shoulder / reach / side
+170,11,nose / throat / mild
+171,10,night / lose / wake
+172,8,knee / ache / after
+173,10,night / lose / wake
+174,5,pale / dizzy / headache
+175,1,ear / hear / fever
+176,5,pale / dizzy / headache
+177,13,leg / hip / ache
+178,1,ear / hear / fever
+179,1,ear / hear / fever
+180,0,breathe / wheeze / cough
+181,4,blister / hot / small blister
+182,5,pale / dizzy / headache
+183,14,deep / deep breath / shoulder
+184,7,off / push off / foot
+185,12,arm / elbow / ache
+186,6,head / eye / light
+187,11,nose / throat / mild
+188,1,ear / hear / fever
+189,7,off / push off / foot
+190,11,nose / throat / mild
+191,17,skin / red / patch
+192,3,itchy / rash / new
+193,3,itchy / rash / new
+194,3,itchy / rash / new
+195,15,short / breath / walk
+196,3,itchy / rash / new
+197,3,itchy / rash / new
+198,13,leg / hip / ache
+199,3,itchy / rash / new
+200,10,night / lose / wake
+201,18,wrist / thumb / hand
+202,11,nose / throat / mild
+203,17,skin / red / patch
+204,11,nose / throat / mild
+205,9,blood / blood pressure / doctor
+206,10,night / lose / wake
+207,15,short / breath / walk
+208,13,leg / hip / ache
+209,7,off / push off / foot
+210,8,knee / ache / after
+211,3,itchy / rash / new
+212,17,skin / red / patch
+213,10,night / lose / wake
+214,17,skin / red / patch
+215,13,leg / hip / ache
+216,2,shoulder / reach / side
+217,1,ear / hear / fever
+218,2,shoulder / reach / side
+219,4,blister / hot / small blister
+220,13,leg / hip / ache
+221,16,chest / tightness / pressure
+222,15,short / breath / walk
+223,13,leg / hip / ache
+224,11,nose / throat / mild
+225,1,ear / hear / fever
+226,18,wrist / thumb / hand
+227,3,itchy / rash / new
+228,9,blood / blood pressure / doctor
+229,8,knee / ache / after
+230,3,itchy / rash / new
+231,18,wrist / thumb / hand
+232,13,leg / hip / ache
+233,17,skin / red / patch
+234,0,breathe / wheeze / cough
+235,15,short / breath / walk
+236,17,skin / red / patch
+237,5,pale / dizzy / headache
+238,3,itchy / rash / new
+239,16,chest / tightness / pressure
+240,17,skin / red / patch
+241,0,breathe / wheeze / cough
+242,15,short / breath / walk
+243,15,short / breath / walk
+244,16,chest / tightness / pressure
+245,17,skin / red / patch
+246,11,nose / throat / mild
+247,5,pale / dizzy / headache
+248,4,blister / hot / small blister
+249,15,short / breath / walk
+250,16,chest / tightness / pressure
+251,2,shoulder / reach / side
+252,8,knee / ache / after
+253,18,wrist / thumb / hand
+254,6,head / eye / light
+255,7,off / push off / foot
+256,17,skin / red / patch
+257,14,deep / deep breath / shoulder
+258,1,ear / hear / fever
+259,3,itchy / rash / new
+260,9,blood / blood pressure / doctor
+261,14,deep / deep breath / shoulder
+262,13,leg / hip / ache
+263,17,skin / red / patch
+264,6,head / eye / light
+265,11,nose / throat / mild
+266,3,itchy / rash / new
+267,8,knee / ache / after
+268,16,chest / tightness / pressure
+269,1,ear / hear / fever
+270,13,leg / hip / ache
+271,15,short / breath / walk
+272,8,knee / ache / after
+273,17,skin / red / patch
+274,7,off / push off / foot
+275,3,itchy / rash / new
+276,15,short / breath / walk
+277,14,deep / deep breath / shoulder
+278,7,off / push off / foot
+279,0,breathe / wheeze / cough
+280,2,shoulder / reach / side
+281,18,wrist / thumb / hand
+282,12,arm / elbow / ache
+283,10,night / lose / wake
+284,16,chest / tightness / pressure
+285,8,knee / ache / after
+286,3,itchy / rash / new
+287,5,pale / dizzy / headache
+288,11,nose / throat / mild
+289,13,leg / hip / ache
+290,1,ear / hear / fever
+291,17,skin / red / patch
+292,0,breathe / wheeze / cough
+293,6,head / eye / light
+294,8,knee / ache / after
+295,17,skin / red / patch
+296,18,wrist / thumb / hand
+297,4,blister / hot / small blister
+298,17,skin / red / patch
+299,5,pale / dizzy / headache
+300,6,head / eye / light
+301,11,nose / throat / mild
+302,8,knee / ache / after
+303,5,pale / dizzy / headache
+304,9,blood / blood pressure / doctor
+305,6,head / eye / light
+306,16,chest / tightness / pressure
+307,11,nose / throat / mild
+308,1,ear / hear / fever
+309,3,itchy / rash / new
+310,13,leg / hip / ache
+311,0,breathe / wheeze / cough
+312,18,wrist / thumb / hand
+313,4,blister / hot / small blister
+314,2,shoulder / reach / side
+315,4,blister / hot / small blister
+316,18,wrist / thumb / hand
+317,15,short / breath / walk
+318,18,wrist / thumb / hand
+319,12,arm / elbow / ache
+320,11,nose / throat / mild
+321,11,nose / throat / mild
+322,16,chest / tightness / pressure
+323,3,itchy / rash / new
+324,17,skin / red / patch
+325,1,ear / hear / fever
+326,6,head / eye / light
+327,18,wrist / thumb / hand
+328,4,blister / hot / small blister
+329,12,arm / elbow / ache
+330,17,skin / red / patch
+331,4,blister / hot / small blister
+332,10,night / lose / wake
+333,13,leg / hip / ache
+334,3,itchy / rash / new
+335,4,blister / hot / small blister
+336,2,shoulder / reach / side
+337,3,itchy / rash / new
+338,17,skin / red / patch
+339,8,knee / ache / after
+340,17,skin / red / patch
+341,0,breathe / wheeze / cough
+342,18,wrist / thumb / hand
+343,9,blood / blood pressure / doctor
+344,5,pale / dizzy / headache
+345,8,knee / ache / after
+346,13,leg / hip / ache
+347,6,head / eye / light
+348,15,short / breath / walk
+349,1,ear / hear / fever
+350,11,nose / throat / mild
+351,11,nose / throat / mild
+352,0,breathe / wheeze / cough
+353,9,blood / blood pressure / doctor
+354,0,breathe / wheeze / cough
+355,13,leg / hip / ache
+356,10,night / lose / wake
+357,5,pale / dizzy / headache
+358,11,nose / throat / mild
+359,0,breathe / wheeze / cough
+360,1,ear / hear / fever
+361,3,itchy / rash / new
+362,12,arm / elbow / ache
+363,17,skin / red / patch
+364,10,night / lose / wake
+365,16,chest / tightness / pressure
+366,17,skin / red / patch
+367,18,wrist / thumb / hand
+368,12,arm / elbow / ache
+369,7,off / push off / foot
+370,3,itchy / rash / new
+371,16,chest / tightness / pressure
+372,13,leg / hip / ache
+373,5,pale / dizzy / headache
+374,11,nose / throat / mild
+375,18,wrist / thumb / hand
+376,9,blood / blood pressure / doctor
+377,6,head / eye / light
+378,17,skin / red / patch
+379,12,arm / elbow / ache
+380,17,skin / red / patch
+381,9,blood / blood pressure / doctor
+382,10,night / lose / wake
+383,5,pale / dizzy / headache
+384,10,night / lose / wake
+385,11,nose / throat / mild
+386,6,head / eye / light
+387,3,itchy / rash / new
+388,0,breathe / wheeze / cough
+389,17,skin / red / patch
+390,12,arm / elbow / ache
+391,0,breathe / wheeze / cough
+392,9,blood / blood pressure / doctor
+393,5,pale / dizzy / headache
+394,7,off / push off / foot
+395,17,skin / red / patch
+396,7,off / push off / foot
+397,18,wrist / thumb / hand
+398,15,short / breath / walk
+399,8,knee / ache / after
+400,14,deep / deep breath / shoulder
+401,14,deep / deep breath / shoulder
+402,5,pale / dizzy / headache
+403,3,itchy / rash / new
+404,6,head / eye / light
+405,18,wrist / thumb / hand
+406,16,chest / tightness / pressure
+407,11,nose / throat / mild
+408,17,skin / red / patch
+409,5,pale / dizzy / headache
+410,12,arm / elbow / ache
+411,6,head / eye / light
+412,18,wrist / thumb / hand
+413,16,chest / tightness / pressure
+414,4,blister / hot / small blister
+415,11,nose / throat / mild
+416,2,shoulder / reach / side
+417,11,nose / throat / mild
+418,7,off / push off / foot
+419,9,blood / blood pressure / doctor
+420,0,breathe / wheeze / cough
+421,13,leg / hip / ache
+422,11,nose / throat / mild
+423,7,off / push off / foot
+424,9,blood / blood pressure / doctor
+425,14,deep / deep breath / shoulder
+426,15,short / breath / walk
+427,18,wrist / thumb / hand
+428,1,ear / hear / fever
+429,1,ear / hear / fever
+430,15,short / breath / walk
+431,4,blister / hot / small blister
+432,5,pale / dizzy / headache
+433,11,nose / throat / mild
+434,3,itchy / rash / new
+435,17,skin / red / patch
+436,9,blood / blood pressure / doctor
+437,4,blister / hot / small blister
+438,2,shoulder / reach / side
+439,16,chest / tightness / pressure
+440,13,leg / hip / ache
+441,17,skin / red / patch
+442,1,ear / hear / fever
+443,4,blister / hot / small blister
+444,12,arm / elbow / ache
+445,8,knee / ache / after
+446,7,off / push off / foot
+447,5,pale / dizzy / headache
+448,11,nose / throat / mild
+449,13,leg / hip / ache
+450,3,itchy / rash / new
+451,13,leg / hip / ache
+452,15,short / breath / walk
+453,17,skin / red / patch
+454,0,breathe / wheeze / cough
+455,18,wrist / thumb / hand
+456,6,head / eye / light
+457,14,deep / deep breath / shoulder
+458,11,nose / throat / mild
+459,11,nose / throat / mild
+460,17,skin / red / patch
+461,2,shoulder / reach / side
+462,4,blister / hot / small blister
+463,7,off / push off / foot
+464,17,skin / red / patch
+465,3,itchy / rash / new
+466,18,wrist / thumb / hand
+467,15,short / breath / walk
+468,0,breathe / wheeze / cough
+469,6,head / eye / light
+470,13,leg / hip / ache
+471,0,breathe / wheeze / cough
+472,18,wrist / thumb / hand
+473,3,itchy / rash / new
+474,14,deep / deep breath / shoulder
+475,17,skin / red / patch
+476,7,off / push off / foot
+477,13,leg / hip / ache
+478,6,head / eye / light
+479,10,night / lose / wake
+480,0,breathe / wheeze / cough
+481,11,nose / throat / mild
+482,6,head / eye / light
+483,7,off / push off / foot
+484,7,off / push off / foot
+485,14,deep / deep breath / shoulder
+486,13,leg / hip / ache
+487,12,arm / elbow / ache
+488,3,itchy / rash / new
+489,6,head / eye / light
+490,12,arm / elbow / ache
+491,7,off / push off / foot
+492,18,wrist / thumb / hand
+493,0,breathe / wheeze / cough
+494,8,knee / ache / after
+495,11,nose / throat / mild
+496,8,knee / ache / after
+497,8,knee / ache / after
+498,4,blister / hot / small blister
+499,17,skin / red / patch
+500,16,chest / tightness / pressure
+501,17,skin / red / patch
+502,18,wrist / thumb / hand
+503,3,itchy / rash / new
+504,1,ear / hear / fever
+505,8,knee / ache / after
+506,5,pale / dizzy / headache
+507,1,ear / hear / fever
+508,14,deep / deep breath / shoulder
+509,5,pale / dizzy / headache
+510,4,blister / hot / small blister
+511,11,nose / throat / mild
+512,3,itchy / rash / new
+513,13,leg / hip / ache
+514,0,breathe / wheeze / cough
+515,0,breathe / wheeze / cough
+516,17,skin / red / patch
+517,5,pale / dizzy / headache
+518,16,chest / tightness / pressure
+519,1,ear / hear / fever
+520,6,head / eye / light
+521,14,deep / deep breath / shoulder
+522,13,leg / hip / ache
+523,11,nose / throat / mild
+524,16,chest / tightness / pressure
+525,8,knee / ache / after
+526,17,skin / red / patch
+527,2,shoulder / reach / side
+528,17,skin / red / patch
+529,11,nose / throat / mild
+530,18,wrist / thumb / hand
+531,9,blood / blood pressure / doctor
+532,10,night / lose / wake
+533,15,short / breath / walk
+534,1,ear / hear / fever
+535,18,wrist / thumb / hand
+536,8,knee / ache / after
+537,16,chest / tightness / pressure
+538,12,arm / elbow / ache
+539,18,wrist / thumb / hand
+540,10,night / lose / wake
+541,18,wrist / thumb / hand
+542,2,shoulder / reach / side
+543,6,head / eye / light
+544,5,pale / dizzy / headache
+545,1,ear / hear / fever
+546,18,wrist / thumb / hand
+547,5,pale / dizzy / headache
+548,17,skin / red / patch
+549,12,arm / elbow / ache
+550,10,night / lose / wake
+551,5,pale / dizzy / headache
+552,8,knee / ache / after
+553,6,head / eye / light
+554,17,skin / red / patch
+555,12,arm / elbow / ache
+556,13,leg / hip / ache
+557,16,chest / tightness / pressure
+558,7,off / push off / foot
+559,10,night / lose / wake
+560,18,wrist / thumb / hand
+561,0,breathe / wheeze / cough
+562,9,blood / blood pressure / doctor
+563,6,head / eye / light
+564,11,nose / throat / mild
+565,16,chest / tightness / pressure
+566,5,pale / dizzy / headache
+567,17,skin / red / patch
+568,15,short / breath / walk
+569,5,pale / dizzy / headache
+570,6,head / eye / light
+571,2,shoulder / reach / side
+572,11,nose / throat / mild
+573,17,skin / red / patch
+574,11,nose / throat / mild
+575,13,leg / hip / ache
+576,8,knee / ache / after
+577,13,leg / hip / ache
+578,5,pale / dizzy / headache
+579,5,pale / dizzy / headache
+580,8,knee / ache / after
+581,17,skin / red / patch
+582,5,pale / dizzy / headache
+583,4,blister / hot / small blister
+584,6,head / eye / light
+585,3,itchy / rash / new
+586,13,leg / hip / ache
+587,6,head / eye / light
+588,10,night / lose / wake
+589,13,leg / hip / ache
+590,18,wrist / thumb / hand
+591,17,skin / red / patch
+592,4,blister / hot / small blister
+593,3,itchy / rash / new
+594,13,leg / hip / ache
+595,6,head / eye / light
+596,17,skin / red / patch
+597,12,arm / elbow / ache
+598,0,breathe / wheeze / cough
+599,3,itchy / rash / new
+600,2,shoulder / reach / side
+601,5,pale / dizzy / headache
+602,12,arm / elbow / ache
+603,15,short / breath / walk
+604,3,itchy / rash / new
+605,11,nose / throat / mild
+606,17,skin / red / patch
+607,10,night / lose / wake
+608,4,blister / hot / small blister
+609,9,blood / blood pressure / doctor
+610,6,head / eye / light
+611,16,chest / tightness / pressure
+612,15,short / breath / walk
+613,4,blister / hot / small blister
+614,13,leg / hip / ache
+615,13,leg / hip / ache
+616,11,nose / throat / mild
+617,17,skin / red / patch
+618,1,ear / hear / fever
+619,6,head / eye / light
+620,5,pale / dizzy / headache
+621,17,skin / red / patch
+622,0,breathe / wheeze / cough
+623,13,leg / hip / ache
+624,14,deep / deep breath / shoulder
+625,10,night / lose / wake
+626,17,skin / red / patch
+627,14,deep / deep breath / shoulder
+628,3,itchy / rash / new
+629,2,shoulder / reach / side
+630,1,ear / hear / fever
+631,6,head / eye / light
+632,11,nose / throat / mild
+633,2,shoulder / reach / side
+634,5,pale / dizzy / headache
+635,13,leg / hip / ache
+636,1,ear / hear / fever
+637,4,blister / hot / small blister
+638,4,blister / hot / small blister
+639,13,leg / hip / ache
+640,4,blister / hot / small blister
+641,2,shoulder / reach / side
+642,3,itchy / rash / new
+643,7,off / push off / foot
+644,7,off / push off / foot
+645,2,shoulder / reach / side
+646,6,head / eye / light
+647,17,skin / red / patch
+648,2,shoulder / reach / side
+649,2,shoulder / reach / side
+650,11,nose / throat / mild
+651,10,night / lose / wake
+652,14,deep / deep breath / shoulder
+653,6,head / eye / light
+654,6,head / eye / light
+655,1,ear / hear / fever
+656,13,leg / hip / ache
+657,17,skin / red / patch
+658,15,short / breath / walk
+659,16,chest / tightness / pressure
+660,17,skin / red / patch
+661,0,breathe / wheeze / cough
+662,16,chest / tightness / pressure
+663,18,wrist / thumb / hand
+664,17,skin / red / patch
+665,15,short / breath / walk
+666,7,off / push off / foot
+667,13,leg / hip / ache
+668,1,ear / hear / fever
+669,9,blood / blood pressure / doctor
+670,15,short / breath / walk
+671,4,blister / hot / small blister
+672,13,leg / hip / ache
+673,16,chest / tightness / pressure
+674,5,pale / dizzy / headache
+675,8,knee / ache / after
+676,6,head / eye / light
+677,6,head / eye / light
+678,11,nose / throat / mild
+679,15,short / breath / walk
+680,4,blister / hot / small blister
+681,0,breathe / wheeze / cough
+682,5,pale / dizzy / headache
+683,18,wrist / thumb / hand
+684,17,skin / red / patch
+685,9,blood / blood pressure / doctor
+686,14,deep / deep breath / shoulder
+687,4,blister / hot / small blister
+688,17,skin / red / patch
+689,12,arm / elbow / ache
+690,18,wrist / thumb / hand
+691,7,off / push off / foot
+692,11,nose / throat / mild
+693,18,wrist / thumb / hand
+694,15,short / breath / walk
+695,9,blood / blood pressure / doctor
+696,17,skin / red / patch
+697,12,arm / elbow / ache
+698,13,leg / hip / ache
+699,11,nose / throat / mild
+700,18,wrist / thumb / hand
+701,11,nose / throat / mild
+702,3,itchy / rash / new
+703,3,itchy / rash / new
+704,6,head / eye / light
+705,6,head / eye / light
+706,5,pale / dizzy / headache
+707,1,ear / hear / fever
+708,1,ear / hear / fever
+709,18,wrist / thumb / hand
+710,4,blister / hot / small blister
+711,17,skin / red / patch
+712,3,itchy / rash / new
+713,6,head / eye / light
+714,11,nose / throat / mild
+715,16,chest / tightness / pressure
+716,1,ear / hear / fever
+717,3,itchy / rash / new
+718,6,head / eye / light
+719,15,short / breath / walk
+720,17,skin / red / patch
+721,6,head / eye / light
+722,4,blister / hot / small blister
+723,14,deep / deep breath / shoulder
+724,13,leg / hip / ache
+725,18,wrist / thumb / hand
+726,15,short / breath / walk
+727,14,deep / deep breath / shoulder
+728,11,nose / throat / mild
+729,7,off / push off / foot
+730,18,wrist / thumb / hand
+731,10,night / lose / wake
+732,17,skin / red / patch
+733,12,arm / elbow / ache
+734,0,breathe / wheeze / cough
+735,13,leg / hip / ache
+736,18,wrist / thumb / hand
+737,14,deep / deep breath / shoulder
+738,3,itchy / rash / new
+739,14,deep / deep breath / shoulder
+740,10,night / lose / wake
+741,6,head / eye / light
+742,18,wrist / thumb / hand
+743,17,skin / red / patch
+744,6,head / eye / light
+745,4,blister / hot / small blister
+746,10,night / lose / wake
+747,14,deep / deep breath / shoulder
+748,8,knee / ache / after
+749,6,head / eye / light
+750,1,ear / hear / fever
+751,11,nose / throat / mild
+752,15,short / breath / walk
+753,18,wrist / thumb / hand
+754,13,leg / hip / ache
+755,14,deep / deep breath / shoulder
+756,18,wrist / thumb / hand
+757,5,pale / dizzy / headache
+758,0,breathe / wheeze / cough
+759,17,skin / red / patch
+760,2,shoulder / reach / side
+761,9,blood / blood pressure / doctor
+762,11,nose / throat / mild
+763,3,itchy / rash / new
+764,7,off / push off / foot
+765,3,itchy / rash / new
+766,10,night / lose / wake
+767,5,pale / dizzy / headache
+768,18,wrist / thumb / hand
+769,2,shoulder / reach / side
+770,17,skin / red / patch
+771,17,skin / red / patch
+772,2,shoulder / reach / side
+773,15,short / breath / walk
+774,16,chest / tightness / pressure
+775,6,head / eye / light
+776,6,head / eye / light
+777,8,knee / ache / after
+778,2,shoulder / reach / side
+779,17,skin / red / patch
+780,0,breathe / wheeze / cough
+781,9,blood / blood pressure / doctor
+782,10,night / lose / wake
+783,17,skin / red / patch
+784,9,blood / blood pressure / doctor
+785,4,blister / hot / small blister
+786,8,knee / ache / after
+787,4,blister / hot / small blister
+788,18,wrist / thumb / hand
+789,11,nose / throat / mild
+790,1,ear / hear / fever
+791,16,chest / tightness / pressure
+792,17,skin / red / patch
+793,15,short / breath / walk
+794,3,itchy / rash / new
+795,18,wrist / thumb / hand
+796,6,head / eye / light
+797,1,ear / hear / fever
+798,6,head / eye / light
+799,1,ear / hear / fever
+800,4,blister / hot / small blister
+801,11,nose / throat / mild
+802,4,blister / hot / small blister
+803,13,leg / hip / ache
+804,0,breathe / wheeze / cough
+805,15,short / breath / walk
+806,1,ear / hear / fever
+807,15,short / breath / walk
+808,0,breathe / wheeze / cough
+809,11,nose / throat / mild
+810,1,ear / hear / fever
+811,11,nose / throat / mild
+812,13,leg / hip / ache
+813,18,wrist / thumb / hand
+814,10,night / lose / wake
+815,11,nose / throat / mild
+816,2,shoulder / reach / side
+817,9,blood / blood pressure / doctor
+818,6,head / eye / light
+819,11,nose / throat / mild
+820,16,chest / tightness / pressure
+821,6,head / eye / light
+822,10,night / lose / wake
+823,9,blood / blood pressure / doctor
+824,15,short / breath / walk
+825,7,off / push off / foot
+826,17,skin / red / patch
+827,4,blister / hot / small blister
+828,13,leg / hip / ache
+829,17,skin / red / patch
+830,5,pale / dizzy / headache
+831,0,breathe / wheeze / cough
+832,0,breathe / wheeze / cough
+833,5,pale / dizzy / headache
+834,17,skin / red / patch
+835,6,head / eye / light
+836,11,nose / throat / mild
+837,0,breathe / wheeze / cough
+838,11,nose / throat / mild
+839,3,itchy / rash / new
+840,7,off / push off / foot
+841,8,knee / ache / after
+842,6,head / eye / light
+843,11,nose / throat / mild
+844,15,short / breath / walk
+845,7,off / push off / foot
+846,7,off / push off / foot
+847,18,wrist / thumb / hand
+848,6,head / eye / light
+849,1,ear / hear / fever
+850,14,deep / deep breath / shoulder
+851,11,nose / throat / mild
+852,5,pale / dizzy / headache
+853,15,short / breath / walk
+854,6,head / eye / light
+855,4,blister / hot / small blister
+856,3,itchy / rash / new
+857,5,pale / dizzy / headache
+858,17,skin / red / patch
+859,17,skin / red / patch
+860,12,arm / elbow / ache
+861,17,skin / red / patch
+862,6,head / eye / light
+863,8,knee / ache / after
+864,5,pale / dizzy / headache
+865,2,shoulder / reach / side
+866,8,knee / ache / after
+867,5,pale / dizzy / headache
+868,4,blister / hot / small blister
+869,18,wrist / thumb / hand
+870,7,off / push off / foot
+871,15,short / breath / walk
+872,5,pale / dizzy / headache
+873,16,chest / tightness / pressure
+874,17,skin / red / patch
+875,17,skin / red / patch
+876,11,nose / throat / mild
+877,1,ear / hear / fever
+878,2,shoulder / reach / side
+879,9,blood / blood pressure / doctor
+880,2,shoulder / reach / side
+881,10,night / lose / wake
+882,2,shoulder / reach / side
+883,8,knee / ache / after
+884,9,blood / blood pressure / doctor
+885,4,blister / hot / small blister
+886,5,pale / dizzy / headache
+887,7,off / push off / foot
+888,4,blister / hot / small blister
+889,9,blood / blood pressure / doctor
+890,17,skin / red / patch
+891,17,skin / red / patch
+892,16,chest / tightness / pressure
+893,11,nose / throat / mild
+894,0,breathe / wheeze / cough
+895,17,skin / red / patch
+896,1,ear / hear / fever
+897,16,chest / tightness / pressure
+898,16,chest / tightness / pressure
+899,6,head / eye / light
+900,6,head / eye / light
+901,6,head / eye / light
+902,5,pale / dizzy / headache
+903,0,breathe / wheeze / cough
+904,13,leg / hip / ache
+905,4,blister / hot / small blister
+906,11,nose / throat / mild
+907,4,blister / hot / small blister
+908,17,skin / red / patch
+909,7,off / push off / foot
+910,16,chest / tightness / pressure
+911,5,pale / dizzy / headache
+912,1,ear / hear / fever
+913,17,skin / red / patch
+914,16,chest / tightness / pressure
+915,15,short / breath / walk
+916,6,head / eye / light
+917,3,itchy / rash / new
+918,7,off / push off / foot
+919,16,chest / tightness / pressure
+920,8,knee / ache / after
+921,6,head / eye / light
+922,2,shoulder / reach / side
+923,7,off / push off / foot
+924,3,itchy / rash / new
+925,0,breathe / wheeze / cough
+926,1,ear / hear / fever
+927,16,chest / tightness / pressure
+928,8,knee / ache / after
+929,2,shoulder / reach / side
+930,5,pale / dizzy / headache
+931,0,breathe / wheeze / cough
+932,17,skin / red / patch
+933,15,short / breath / walk
+934,6,head / eye / light
+935,13,leg / hip / ache
+936,3,itchy / rash / new
+937,17,skin / red / patch
+938,11,nose / throat / mild
+939,1,ear / hear / fever
+940,3,itchy / rash / new
+941,18,wrist / thumb / hand
+942,1,ear / hear / fever
+943,15,short / breath / walk
+944,2,shoulder / reach / side
+945,2,shoulder / reach / side
+946,7,off / push off / foot
+947,0,breathe / wheeze / cough
+948,5,pale / dizzy / headache
+949,9,blood / blood pressure / doctor
+950,13,leg / hip / ache
+951,16,chest / tightness / pressure
+952,6,head / eye / light
+953,15,short / breath / walk
+954,17,skin / red / patch
+955,15,short / breath / walk
+956,2,shoulder / reach / side
+957,1,ear / hear / fever
+958,7,off / push off / foot
+959,3,itchy / rash / new
+960,10,night / lose / wake
+961,13,leg / hip / ache
+962,13,leg / hip / ache
+963,18,wrist / thumb / hand
+964,13,leg / hip / ache
+965,2,shoulder / reach / side
+966,14,deep / deep breath / shoulder
+967,8,knee / ache / after
+968,1,ear / hear / fever
+969,15,short / breath / walk
+970,6,head / eye / light
+971,14,deep / deep breath / shoulder
+972,3,itchy / rash / new
+973,0,breathe / wheeze / cough
+974,15,short / breath / walk
+975,11,nose / throat / mild
+976,12,arm / elbow / ache
+977,10,night / lose / wake
+978,1,ear / hear / fever
+979,3,itchy / rash / new
+980,2,shoulder / reach / side
+981,14,deep / deep breath / shoulder
+982,3,itchy / rash / new
+983,17,skin / red / patch
+984,15,short / breath / walk
+985,4,blister / hot / small blister
+986,2,shoulder / reach / side
+987,10,night / lose / wake
+988,1,ear / hear / fever
+989,18,wrist / thumb / hand
+990,3,itchy / rash / new
+991,5,pale / dizzy / headache
+992,6,head / eye / light
+993,12,arm / elbow / ache
+994,18,wrist / thumb / hand
+995,14,deep / deep breath / shoulder
+996,6,head / eye / light
+997,1,ear / hear / fever
+998,1,ear / hear / fever
+999,11,nose / throat / mild
+1000,10,night / lose / wake
+1001,13,leg / hip / ache
+1002,17,skin / red / patch
+1003,7,off / push off / foot
+1004,4,blister / hot / small blister
+1005,9,blood / blood pressure / doctor
+1006,14,deep / deep breath / shoulder
+1007,6,head / eye / light
+1008,1,ear / hear / fever
+1009,17,skin / red / patch
+1010,7,off / push off / foot
+1011,10,night / lose / wake
