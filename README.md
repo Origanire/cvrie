@@ -1,5 +1,7 @@
 # CVRIE — radiographies thoraciques, prototype de recherche
 
+> **English summary.** Research prototype that classifies chest X-rays (288 patients, JSRT + LIDC-IDRI) with frozen DenseNet/ResNet encoders and classical classifiers, compares 40 configurations with cross-validation (0.748 AUC) and serves results in a local Streamlit app. Not a diagnostic tool. Epitech team project. Documentation below is in French.
+
 Importer une radiographie PNG/JPEG dans une application française, obtenir une
 classification expérimentale et consulter les résultats mesurés du modèle.
 Traitement local, sans API distante et sans conservation des images importées.
