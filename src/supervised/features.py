@@ -1,20 +1,20 @@
-from PIL import Image, ImageOps
 import numpy as np
+from PIL import Image
+from skimage.feature import hog
+
+from src.supervised.preprocess import preprocess_image
 
 
-def center_crop_to_square(img: Image.Image) -> Image.Image:
-    w, h = img.size
-    side = min(w, h)
-    left = (w - side) // 2
-    top = (h - side) // 2
-    return img.crop((left, top, left + side, top + side))
+def extract_features(source):
+    array = preprocess_image(source)
+    gradients = hog(array, orientations=9, pixels_per_cell=(16, 16),
+                    cells_per_block=(2, 2), block_norm="L2-Hys")
+    low_res = np.asarray(Image.fromarray(array).resize((32, 32)), dtype=np.float32).ravel()
+    return np.concatenate([gradients, low_res]).astype(np.float32)
 
 
-def preprocess_image(path: str, size=(128, 128)) -> np.ndarray:
-    with Image.open(path) as img:
-        img = ImageOps.exif_transpose(img)
-        img = img.convert("L")
-        img = center_crop_to_square(img)
-        img = img.resize(size)
-        arr = np.asarray(img, dtype=np.float32) / 255.0
-    return arr
+def build_feature_matrix(records):
+    if not records:
+        raise ValueError("Aucune image à traiter.")
+    features = np.stack([extract_features(record["path"]) for record in records])
+    return features, np.array([r["label"] for r in records]), [r["path"] for r in records]

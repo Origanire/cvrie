@@ -1,0 +1,257 @@
+{
+  "schema_version": 2,
+  "created_at": "2026-10-10T06:09:57.171213+00:00",
+  "dataset": "JSRT 2048 × 2048 PNG / Kaggle raddar",
+  "dataset_size": 246,
+  "source_size": 247,
+  "excluded_duplicates": [
+    "JPCNN014"
+  ],
+  "target": "malignant_nodule_vs_benign_or_non_nodule",
+  "clinical_use": false,
+  "classes": {
+    "0": "Bénin ou sans nodule dans JSRT",
+    "1": "Nodule malin dans JSRT"
+  },
+  "split_counts": {
+    "Train": 147,
+    "Test": 50,
+    "Validation": 49
+  },
+  "original_states": {
+    "malignant": 100,
+    "non-nodule": 92,
+    "benign": 54
+  },
+  "seed": 42,
+  "threshold": 0.5084201097488403,
+  "threshold_policy": "Maximum balanced accuracy on Validation only; research use",
+  "preprocess_version": "xrv-densenet121-all-global-lungs224-v1",
+  "manifest_sha256": "3959bf3efaa0c34eafac3e41a2f4fffa73085a55fff0f02a5789fdb5ec969128",
+  "selected_model": "xrv_global_C0.001",
+  "selection_rule": "Highest mean 5-fold Train ROC AUC; threshold maximizes Validation balanced accuracy",
+  "validation": {
+    "xrv_global_C0.001": {
+      "n": 49,
+      "accuracy": 0.6122448979591837,
+      "balanced_accuracy": 0.5948275862068966,
+      "sensitivity": 0.5,
+      "specificity": 0.6896551724137931,
+      "precision": 0.5263157894736842,
+      "f1": 0.5128205128205128,
+      "roc_auc": 0.5793103448275861,
+      "confusion_matrix": [
+        [
+          20,
+          9
+        ],
+        [
+          10,
+          10
+        ]
+      ],
+      "train_seconds": 0.244
+    }
+  },
+  "test": {
+    "n": 50,
+    "accuracy": 0.7,
+    "balanced_accuracy": 0.7166666666666667,
+    "sensitivity": 0.8,
+    "specificity": 0.6333333333333333,
+    "precision": 0.5925925925925926,
+    "f1": 0.6808510638297872,
+    "roc_auc": 0.7483333333333334,
+    "confusion_matrix": [
+      [
+        19,
+        11
+      ],
+      [
+        4,
+        16
+      ]
+    ],
+    "roc_auc_ci95_bootstrap": [
+      0.6009214743589745,
+      0.8932789557602151
+    ]
+  },
+  "test_majority_baseline_accuracy": 0.6,
+  "versions": {
+    "python": "3.13.15",
+    "sklearn": "1.9.1",
+    "numpy": "2.5.3",
+    "torch": "2.14.1",
+    "torchvision": "0.29.1",
+    "torchxrayvision": "1.5.5"
+  },
+  "limitations": [
+    "246 patients JSRT uniquement ; aucun patient supplémentaire ni validation clinique externe.",
+    "Le test a déjà été observé pendant le développement : comparaison exploratoire, pas validation indépendante.",
+    "Le score n'est pas une probabilité individuelle de cancer ; seuil choisi sur seulement 49 images de validation.",
+    "DenseNet est préentraîné sur des pathologies thoraciques ; ses sorties nodule/masse ne sont pas des diagnostics de cancer.",
+    "Les sources de préentraînement déclarées par TorchXRayVision n'incluent pas JSRT ; leur absence de recoupement n'a pas été auditée patient par patient.",
+    "Images sources 2048 × 2048 en 8 bits ; l'encodeur utilise trois vues de 224 × 224, pas la pleine résolution native.",
+    "La classe négative regroupe bénin et sans nodule et ne prouve pas l'absence de cancer.",
+    "Les contrôles d'entrée ne reconnaissent pas l'anatomie ; aucune robustesse clinique ou par sous-groupe démontrée."
+  ],
+  "feature_backend": "xrv-densenet121-all-global-lungs224-v1",
+  "encoder": "densenet121-res224-all",
+  "encoder_sha256": "56524913dd16a906422e8d8b66a7a5c46be1d82eb7ac012d8103776f1aa68899",
+  "cross_validation": {
+    "xrv_global_C0.001": {
+      "auc_mean": 0.710239651416122,
+      "auc_std": 0.12217772365768148,
+      "folds": [
+        0.5787037037037037,
+        0.8009259259259259,
+        0.9019607843137255,
+        0.6568627450980392,
+        0.6127450980392157
+      ]
+    },
+    "xrv_global_C0.01": {
+      "auc_mean": 0.7006535947712418,
+      "auc_std": 0.12307083289968895,
+      "folds": [
+        0.5648148148148149,
+        0.7962962962962963,
+        0.892156862745098,
+        0.6274509803921569,
+        0.6225490196078431
+      ]
+    },
+    "xrv_global_C0.1": {
+      "auc_mean": 0.6751633986928105,
+      "auc_std": 0.11371622951635568,
+      "folds": [
+        0.5601851851851852,
+        0.7175925925925927,
+        0.8774509803921569,
+        0.5980392156862745,
+        0.6225490196078431
+      ]
+    },
+    "xrv_global_lungs_C0.001": {
+      "auc_mean": 0.6726579520697168,
+      "auc_std": 0.07488482841905814,
+      "folds": [
+        0.6435185185185185,
+        0.6805555555555556,
+        0.8137254901960784,
+        0.607843137254902,
+        0.6176470588235294
+      ]
+    },
+    "xrv_global_lungs_C0.01": {
+      "auc_mean": 0.659967320261438,
+      "auc_std": 0.04463958718454217,
+      "folds": [
+        0.6342592592592593,
+        0.6851851851851851,
+        0.7352941176470589,
+        0.6127450980392157,
+        0.6323529411764706
+      ]
+    },
+    "xrv_global_lungs_C0.1": {
+      "auc_mean": 0.6571895424836601,
+      "auc_std": 0.037201033816887406,
+      "folds": [
+        0.6296296296296297,
+        0.6759259259259259,
+        0.7205882352941176,
+        0.6176470588235294,
+        0.642156862745098
+      ]
+    }
+  },
+  "test_fixed_threshold_05": {
+    "n": 50,
+    "accuracy": 0.7,
+    "balanced_accuracy": 0.7166666666666667,
+    "sensitivity": 0.8,
+    "specificity": 0.6333333333333333,
+    "precision": 0.5925925925925926,
+    "f1": 0.6808510638297872,
+    "roc_auc": 0.7483333333333334,
+    "confusion_matrix": [
+      [
+        19,
+        11
+      ],
+      [
+        4,
+        16
+      ]
+    ]
+  },
+  "data_quality": {
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/raddar/nodules-in-chest-xrays-jsrt",
+    "archive_sha256": "0de426a7abe4009de56ac37df4b851d3b8e138f3eb98a95e9dd82780e2b54678",
+    "source_images": 247,
+    "used_images": 246,
+    "image_size": [
+      2048,
+      2048
+    ],
+    "bit_depth": 8,
+    "excluded": {
+      "JPCNN014": "Excluded in baseline due to duplicate; kept excluded for paired comparison"
+    },
+    "patient_splits_preserved": true,
+    "unique_decoded_pixel_hashes": 246,
+    "new_patients": 0,
+    "note": "Higher resolution of the same patients, not an independent dataset."
+  },
+  "baseline": {
+    "selected_model": "logistic_regression",
+    "test": {
+      "n": 50,
+      "accuracy": 0.62,
+      "balanced_accuracy": 0.6083333333333334,
+      "sensitivity": 0.55,
+      "specificity": 0.6666666666666666,
+      "precision": 0.5238095238095238,
+      "f1": 0.5365853658536586,
+      "roc_auc": 0.6666666666666666,
+      "confusion_matrix": [
+        [
+          20,
+          10
+        ],
+        [
+          9,
+          11
+        ]
+      ],
+      "roc_auc_ci95_bootstrap": [
+        0.5047936120543294,
+        0.8285405532741753
+      ]
+    },
+    "validation": {
+      "n": 49,
+      "accuracy": 0.4897959183673469,
+      "balanced_accuracy": 0.47586206896551725,
+      "sensitivity": 0.4,
+      "specificity": 0.5517241379310345,
+      "precision": 0.38095238095238093,
+      "f1": 0.3902439024390244,
+      "roc_auc": 0.5344827586206896,
+      "confusion_matrix": [
+        [
+          16,
+          13
+        ],
+        [
+          12,
+          8
+        ]
+      ],
+      "train_seconds": 0.023
+    }
+  },
+  "test_status": "Exploratory reused cohort: not an untouched external validation"
+}

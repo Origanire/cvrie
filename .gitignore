@@ -1,2 +1,12 @@
 data/
 .venv_curie
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+models/supervised/*.joblib
+.DS_Store
+
+models/supervised/encoder/
+
+models/supervised/encoder512/

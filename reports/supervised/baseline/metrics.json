@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-09T21:24:50.357095+00:00",
+  "dataset": "miniJSRT PNG + Kaggle JSRT metadata",
+  "dataset_size": 246,
+  "source_size": 247,
+  "excluded_duplicates": [
+    "JPCNN014"
+  ],
+  "target": "malignant_nodule_vs_benign_or_non_nodule",
+  "clinical_use": false,
+  "classes": {
+    "0": "Bénin ou sans nodule dans JSRT",
+    "1": "Nodule malin dans JSRT"
+  },
+  "split_counts": {
+    "Train": 147,
+    "Test": 50,
+    "Validation": 49
+  },
+  "original_states": {
+    "malignant": 100,
+    "non-nodule": 92,
+    "benign": 54
+  },
+  "seed": 42,
+  "threshold": 0.5,
+  "threshold_policy": "fixed, research only; not clinically validated",
+  "preprocess_version": "grayscale-pad256-hog16-pixels32-v1",
+  "manifest_sha256": "9f087e2de6fbd1a669d0fa2579664e08254e1043194e5ae652afc1b7c35f313d",
+  "selected_model": "logistic_regression",
+  "selection_rule": "Maximum validation ROC AUC; test never used for selection",
+  "validation": {
+    "logistic_regression": {
+      "n": 49,
+      "accuracy": 0.4897959183673469,
+      "balanced_accuracy": 0.47586206896551725,
+      "sensitivity": 0.4,
+      "specificity": 0.5517241379310345,
+      "precision": 0.38095238095238093,
+      "f1": 0.3902439024390244,
+      "roc_auc": 0.5344827586206896,
+      "confusion_matrix": [
+        [
+          16,
+          13
+        ],
+        [
+          12,
+          8
+        ]
+      ],
+      "train_seconds": 0.023
+    },
+    "svm_rbf": {
+      "n": 49,
+      "accuracy": 0.5918367346938775,
+      "balanced_accuracy": 0.5,
+      "sensitivity": 0.0,
+      "specificity": 1.0,
+      "precision": 0.0,
+      "f1": 0.0,
+      "roc_auc": 0.48103448275862065,
+      "confusion_matrix": [
+        [
+          29,
+          0
+        ],
+        [
+          20,
+          0
+        ]
+      ],
+      "train_seconds": 0.107
+    },
+    "random_forest": {
+      "n": 49,
+      "accuracy": 0.4897959183673469,
+      "balanced_accuracy": 0.46810344827586203,
+      "sensitivity": 0.35,
+      "specificity": 0.5862068965517241,
+      "precision": 0.3684210526315789,
+      "f1": 0.358974358974359,
+      "roc_auc": 0.4982758620689655,
+      "confusion_matrix": [
+        [
+          17,
+          12
+        ],
+        [
+          13,
+          7
+        ]
+      ],
+      "train_seconds": 0.176
+    }
+  },
+  "test": {
+    "n": 50,
+    "accuracy": 0.62,
+    "balanced_accuracy": 0.6083333333333334,
+    "sensitivity": 0.55,
+    "specificity": 0.6666666666666666,
+    "precision": 0.5238095238095238,
+    "f1": 0.5365853658536586,
+    "roc_auc": 0.6666666666666666,
+    "confusion_matrix": [
+      [
+        20,
+        10
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "roc_auc_ci95_bootstrap": [
+      0.5047936120543294,
+      0.8285405532741753
+    ]
+  },
+  "test_majority_baseline_accuracy": 0.6,
+  "versions": {
+    "python": "3.13.15",
+    "sklearn": "1.9.1",
+    "numpy": "2.5.3"
+  },
+  "limitations": [
+    "246 radiographies historiques uniques uniquement ; aucune validation clinique ou externe.",
+    "Le score du modèle n'est pas une probabilité individuelle de cancer.",
+    "La classe négative réunit les nodules bénins et les images sans nodule ; elle ne prouve pas l'absence de cancer.",
+    "Le modèle ne vérifie pas l'anatomie, la projection ni la provenance des images.",
+    "Les images miniJSRT 256 × 256 en 8 bits réduisent la résolution des radiographies originales 12 bits.",
+    "Les contrôles de doublons portent sur les identifiants et les fichiers exacts, pas les quasi-doublons."
+  ]
+}

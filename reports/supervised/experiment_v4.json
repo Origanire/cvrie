@@ -1,0 +1,33 @@
+{
+  "created_at": "2026-10-10T06:35:20.661366+00:00",
+  "manifest_sha256": "8f86b01d2d411d4bbd25d528e5f7d17cd222feb58e7b7bbecb8004aa299c6a16",
+  "candidates": [
+    "resnet512_global_LR_C0.0001",
+    "resnet512_global_LR_C0.001",
+    "resnet512_global_LR_C0.01",
+    "resnet512_global_LR_C0.1",
+    "resnet512_global_LR_C1.0",
+    "resnet512_global_LR_C10.0",
+    "resnet512_global_RBF_C0.01",
+    "resnet512_global_RBF_C0.1",
+    "resnet512_global_RBF_C1.0",
+    "resnet512_global_RBF_C10.0",
+    "resnet512_fusion_LR_C0.0001",
+    "resnet512_fusion_LR_C0.001",
+    "resnet512_fusion_LR_C0.01",
+    "resnet512_fusion_LR_C0.1",
+    "resnet512_fusion_LR_C1.0",
+    "resnet512_fusion_LR_C10.0",
+    "resnet512_fusion_RBF_C0.01",
+    "resnet512_fusion_RBF_C0.1",
+    "resnet512_fusion_RBF_C1.0",
+    "resnet512_fusion_RBF_C10.0"
+  ],
+  "folds": 5,
+  "repeats": 3,
+  "seed": 42,
+  "selection": "Highest mean of per-source ROC AUC over 15 Train folds; strata source + label.",
+  "promotion": "Validation macro source AUC and balanced accuracy must both exceed incumbent, with no JSRT validation AUC regression.",
+  "threshold": "Validation balanced accuracy only",
+  "test": "JSRT and LIDC test cohorts already observed in v3; exploratory reused cohorts. Selection uses Train CV and Validation only."
+}

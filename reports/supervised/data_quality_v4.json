@@ -1,0 +1,32 @@
+{
+  "source": "https://www.cancerimagingarchive.net/collection/lidc-idri/",
+  "diagnoses_url": "https://www.cancerimagingarchive.net/wp-content/uploads/tcia-diagnosis-data-2012-04-20.xls",
+  "diagnoses_sha256": "5b7cdcb0fc016e976f5c65d8122bb93c3665432d44e1573bac1cc9573079868a",
+  "series_sha256": "e46647d14a643a11ab8a945d6519f79cabe5f89deee2a1fe4ac653b102b06c86",
+  "new_patients": 42,
+  "total_patients": 288,
+  "new_split_counts": {
+    "Test": {
+      "benign": 6,
+      "malignant": 3
+    },
+    "Train": {
+      "benign": 15,
+      "malignant": 9
+    },
+    "Validation": {
+      "benign": 6,
+      "malignant": 3
+    }
+  },
+  "exclusions": [
+    {
+      "patient_id": "LIDC-IDRI-0187",
+      "excluded": "No documented original frontal projection"
+    }
+  ],
+  "label_policy": "Patient-level primary lung malignancy confirmed by biopsy/resection; benign confirmed by stability >=2 years, biopsy or resection. Unknown, metastases and progression-only excluded.",
+  "limitations": "Diagnosis is patient-level and may concern a lesion invisible on the chest X-ray. Temporal correspondence with diagnosis is not established. Cross-source identity linkage is unavailable.",
+  "normalization": "DICOM rescale, 0.5/99.5 image percentiles, MONOCHROME1 inversion; no supplied VOI window; PNG 8bit max2048px; original images only, derived images excluded",
+  "license": "CC BY 3.0; attribution: Armato SG et al. LIDC-IDRI, TCIA, DOI 10.7937/K9/TCIA.2015.LO9QL9SX"
+}
