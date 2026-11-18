@@ -1,0 +1,2 @@
+# Notebooks are exploration logs: keep the language stats on the Python code.
+*.ipynb linguist-documentation

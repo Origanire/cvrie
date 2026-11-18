@@ -43,13 +43,14 @@ Python 3.13 recommandé. Depuis la racine :
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
-python -m src.supervised.improve
+python -m src.supervised.dataset   # télécharge miniJSRT et fixe la séparation par patient
+python -m src.supervised.improve   # extrait les caractéristiques et entraîne le modèle
 python -m streamlit run app.py
 ```
 
-Ouvrir http://127.0.0.1:8501. Les données et le modèle sont déjà présents sur
-la machine de développement : seule la dernière commande est nécessaire.
-Le serveur écoute sur 127.0.0.1 uniquement. Arrêt : Ctrl+C.
+Ouvrir http://127.0.0.1:8501. Les données et le modèle ne sont pas dans le dépôt :
+les deux commandes d'entraînement les recréent en local. Ensuite, seule la
+dernière commande est nécessaire. Le serveur écoute sur 127.0.0.1 uniquement. Arrêt : Ctrl+C.
 
 Le premier entraînement télécharge miniJSRT pour reproduire la séparation
 historique, l'archive JSRT haute résolution (environ 382 Mio) et les poids
